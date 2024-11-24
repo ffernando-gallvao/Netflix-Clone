@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="/img/netflix_favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <audio src="audio/tudum-netflix-sound.mp3" class="audio"></audio>
+    <div class="barra">
+        <div class="barra-esquerda">
+            <img src="img/logo.png" alt="">
+            <ul>
+                <li>Início</li>
+                <li>Séries</li>
+                <li>Filmes</li>
+                <li>Bombando</li>
+                <li>Minha Lista</li>
+                <li>Navegar por idiomas</li>
+            </ul>
+        </div>
+        <div class="barra-direita">
+            <img src="img/pesquisar_icon.png" class="icones">
+            <img src="img/notificaçao.png" class="icones">
+            <div class="barra-perfil">
+                <img src="img/perfil_img.png" class="icones">
+                <p>▼</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fim da Barra Superior -->
+
+
+    <!-- Inico Da Capa -->
+    <div class="stranger-things">
+        <video src="video/stranger-things.mp4" autoplay muted loop class="capa-video"> </video>
+        <div class="capa-titulo">
+            <img src="img/stranger-things.png" alt="" class="capa-img">
+            <img src="img/top_10.png" alt="" class="top-10"><strong><p class="top-p">Top 10 em séries hoje</p></strong>
+            <p>Stranger Things é uma série de ficção científica criada pelos irmaõs Duffer para a Netflix. Situada na
+                cidade ficconal de Hawinks, Indiana, a trama começa no ano de 1983 com o desaparecimento do garoto Will.
+            </p>
+            <div class="btns">
+                <a><button class="btn assistir"><img src="img/play_icon.png" alt="">Assistir</button></a>
+                <a><button class="btn info"><img src="img/info_icon.png" alt="">Mais Informações</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Da Capa -->
+
+
+    <button class="botao-som"><img src="img/som_icon.png" alt=""></button>
+
+
+    <!-- Início Do Carrosel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <h2>Somente na Netflix</h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Card/cards_1.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_2.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_3.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_4.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_5.jpg" class="imagem-carrosel">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Card/cards_6.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_7.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_8.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_9.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_10.jpg" class="imagem-carrosel">
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+
+    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+        <h2>Séries dos EUA dubladas em português</h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Card/cards_11.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_12.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_13.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_14.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_15.jpg" class="imagem-carrosel">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Card/cards_16.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_17.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_18.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_19.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_20.jpg" class="imagem-carrosel">
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+
+    <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+        <h2>Produções de Hollywood</h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Card/cards_21.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_22.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_23.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_24.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_25.jpg" class="imagem-carrosel">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Card/cards_26.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_27.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_28.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_29.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_30.jpg" class="imagem-carrosel">
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+
+    <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+        <h2>Filmes de ação e aventura</h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Card/cards_31.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_32.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_33.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_34.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_35.jpg" class="imagem-carrosel">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Card/cards_36.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_37.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_38.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_39.jpg" class="imagem-carrosel">
+                <img src="img/Card/cards_40.jpg" class="imagem-carrosel">
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!-- Fim Do Carossel -->
+
+    <!-- Início Do Modal -->
+    <div class="modal">
+        <div class="modal-conteudo">
+            <h2>Sobre <strong>Stranger Things</strong></h2>
+            <p>Criação: <strong>The Duffer Brothers</strong></p>
+            <p>Elenco:
+                <strong>Millie Bobby Brown</strong>
+                Eleven,
+                <strong>Finn Wolfhard</strong>
+                Mike,
+                <strong>Noah Schnapp</strong>
+                Will Byers,
+                <strong>Caleb McLaughlin</strong>
+                Lucas Sinclair,
+                <strong>Sadie Sink</strong>
+                Max,
+                <strong>Gaten Matarazzo</strong>
+                Dustin Henderson,
+                <strong>Joe Keery</strong>
+                Steve Harrington,
+                <strong>David Harbour</strong>
+                Jim Hopper,
+                <strong>Natalia Dyer</strong>
+                Nancy Wheeler,
+                <strong>Winona Ryder</strong>
+                Joyce Byers,
+                <strong>Charlie Heaton</strong>
+                Jonathan Byers,
+                <strong>Maya Hawke</strong>
+                Robin,
+                <strong>Dacre Montgomery</strong>
+                Billy Hargrove,
+                <strong>Joseph Quinn</strong>
+                Eddie Munson,
+                <strong>Matthew Modine</strong>
+                Martin Brenner,
+                <strong>Jamie Campbell Bower</strong>
+                Vecna,
+                <strong>Brett Gelman</strong>
+                Murray Bauman,
+                <strong>Priah Ferguson</strong>
+                Erica Sinclair,
+                <strong>Paul Reiser</strong>
+                Sam Owens,
+                <strong>Cara Buono</strong>
+                Karen,
+                <strong>Sean Astin</strong>
+                Bob Newby.
+            </p>
+            <p>Gêneros: <strong>Séries dramáticas, Séries de ficção científica, Séries teen, Séries dos EUA, Séries
+                    de
+                    terror</strong></p>
+            <p>Cenas e momentos: <strong>Sinistro, Nostálgico, Assustador</strong></p>
+            <p>Ano de Lançamento: <strong>2016</strong></p>
+        </div>
+    </div>
+    <!-- Início Do Modal -->
+
+    <!-- Início Do Footer -->
+     <div class="footer">
+        <div class="footer-icons">
+            <a href="https://github.com/ffernando-gallvao" target=”_blank”><img src="img/github_icon.png" alt=""></a>
+            <a href="mailto:fernandoglv568@gmail.com" target=”_blank”><img src="img/gmail_icon.png" alt=""></a>
+            <a href="https://www.instagram.com/ffernando_gallvao/" target=”_blank”><img src="img/instagram_icon.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/ffernandogallvao/" target=”_blank”><img src="img/linkedin_icon.png" alt=""></a>
+        </div>
+        <ul>
+            <li>Audiodescrição</li>
+            <li>Relações com investidores</li>
+            <li>Avisos legais</li>
+            <li>Central de Ajuda</li>
+            <li>Carreiras</li>
+            <li>Preferências de cookies</li>
+            <li>Cartão pré-pago</li>
+            <li>Termos de Uso</li>
+            <li>Informações corporativas</li>
+            <li>Imprensa</li>
+            <li>Privacidade</li>
+            <li>Entre em contato</li>
+        </ul>
+        <p><div class="copyright-text">© 1997-2024 Netflix, Inc.</div></p>
+     </div>
+     <!-- Fim Do Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="scripts.js">
+
+    </script>
+
+</body>
+
+</html>
